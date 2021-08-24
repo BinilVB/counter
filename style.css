@@ -1,0 +1,40 @@
+    body {
+        background-image: url('2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #num {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 100px;
+    }
+    
+    #con {
+        height: 700px;
+        background-image: url('./3.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 700px;
+        border: 5px solid rgb(241, 240, 243);
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .op {
+        color: rgb(247, 240, 240);
+        width: 200px;
+        font-size: 30px;
+        height: 200px;
+        background-image: repeating-linear-gradient(to left, rgb(120, 108, 228), rgb(96, 96, 211), rgb(73, 146, 206), rgb(106, 106, 214));
+        border: 10px solid rgb(238, 236, 235);
+        border-radius: 50%;
+    }
